@@ -1,0 +1,93 @@
+body, a { color: #94846e; }
+body { background: url(../images/bg.png) no-repeat scroll 0 0 transparent; }
+
+.container { padding: 15px; }
+
+.fa-round {
+	border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.panel { background-color: transparent; border: 0 none; }
+.panel-success>.panel-heading { color: #fff; background-color: #97ce68; border-color: #8dca5a; border-bottom-width: 5px; }
+#login.panel,
+#twitter.panel,
+#tabs.panel { background: #fff; }
+
+.btn-default { color: #94846e; }
+.btn-danger, .btn-brown { border-bottom-width: 5px; }
+.btn-danger { background-color: #ff6766; border-color: #ff4c4b; }
+.btn-brown { background-color: #94846e; border-bottom-color: #86745b; color: #fff; }
+.btn-danger .fa-round { background-color: #ff4c4b; }
+
+.text-danger { color: #ff6766; }
+.text-info { color: #2bb5dc; }
+
+.progress-bar-danger { background-color: #ff6766; }
+
+.panel>.list-group .list-group-item.active {
+	background-color: #f2f2ec;
+    border-color: #f2f2ec #f2f2ec #f2f2ec #ff6766;
+    border-width: 1px 1px 1px 2px;
+}
+.panel>.list-group .list-group-item.active .fa {
+	color: #ff6766;
+}
+
+.img-box {
+	display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+#search .input-group-addon { background-color: #97ce68; color: #fff; border-color: #97ce68; }
+
+#weather .btn-group>.btn { min-height: 180px; position: relative; }
+#weather .btn-group>.btn>.btn-inner {
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+#weather .btn-group>.btn:first-child .btn-inner {
+	height: 16px;
+}
+#weather .btn-group>.btn:last-child .btn-inner {
+	height: 48px;
+}
+
+#twitter.panel>.panel-heading { background: url(../images/twitter-bg.png) no-repeat scroll left bottom transparent; color: #fff; }
+#twitter>.panel-body>.form-control { height: 90px; }
+#twitter>.row { padding: 15px 0 0 0; }
+#twitter>.row>.btn-group>.btn { border: 0 none; box-shadow: none; }
+#twitter>.row>.btn-group>.btn:not(:last-child) { border-right: 2px solid #deddd5; }
+#twitter>.row>.btn-group>.btn>span:last-child { font-size: 13px; }
+
+#player {
+	background: url(../images/people.02.png) no-repeat scroll 0 0 transparent;
+    min-height: 307px;
+    position: relative;
+}
+#player>.panel-footer {
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: transparent;
+    border: 0 none;
+}
+#player>.panel-heading { color: #fff; }
+#player>.panel-footer>.row { margin: -5px; }
+#player>.panel-footer>.row>[class*="col-"] { padding: 0 5px; min-height: 36px; }
+#player>.panel-footer .btn { background-color: transparent; color: #fff; vertical-align: -10px; }
+#player>.panel-footer .btn .fa-round { background-color: rgba( 255, 255, 255, .2); }
+#player>.panel-footer .progress { margin: 15px 0 0 0; background-color: rgba( 255, 255, 255, .2); height: 10px;overflow: visible; }
+#player>.panel-footer .progress-bar {  border-radius: 5px; position: relative; }
+#player>.panel-footer .progress>.progress-bar:before { position: absolute; content: "\f041"; top: -20px; right: 0; color: #ff6766; font: normal normal normal 14px/1 FontAwesome; }
